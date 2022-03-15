@@ -141,11 +141,14 @@ padding:30px;
   font-weight: 300;
   font-size: 15px;
   color: Black;
+  text-align: center;
+  justify-content: center;
   padding: 0;
 }
 .contact-h4{
   border: Black;
   margin: 6px;
+  justify-content: center;
 }
 
 form {
