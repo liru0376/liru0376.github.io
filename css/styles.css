@@ -27,6 +27,8 @@ body
   padding: 20px;
 }
 
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -89,6 +91,8 @@ padding:30px;
         background-color: lightblue;
       }
     }
+
+
   .aboutme{
     display:flex;
     justify-content: flex-start;
@@ -118,28 +122,28 @@ padding:30px;
   justify-content: flex-start;
   flex-direction: column;
 }
-.contactme-h1{
+.contact-h1{
   font-family: 'Bebas Neue';
   font-weight: 600;
   font-size: 20px;
   color: Black;
   padding: 0;
 }
-.contactme-h2{
+.contact-h2{
   font-family: 'Bebas Neue';
   font-weight: 600;
   font-size: 25px;
   color: Black;
   padding: 0;
 }
-.contactme-h3{
+.contact-h3{
   font-family: 'Bebas Neue';
   font-weight: 300;
   font-size: 15px;
   color: Black;
   padding: 0;
 }
-.contactme-h4{
+.contact-h4{
   border: Black;
   margin: 6px;
 }
@@ -170,5 +174,17 @@ input[type=text]{
   padding: 30px;
 }
 .portfolio-3{
+  padding: 30px;
+}
+.portfolio-4{
+  padding: 30px;
+}
+.portfolio-5{
+  padding: 30px;
+}
+.portfolio-6{
+  padding: 30px;
+}
+.portfolio-7{
   padding: 30px;
 }
