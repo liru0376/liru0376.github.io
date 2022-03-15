@@ -1,188 +1,174 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-html {background-color: ##CEE3F6;
-}
-
-h1
-{
-  font-family: 'Quicksand', sans-serif;
-  <!-- font-size: 20px;--!>
-  color: #FA5858;
-}
-
-h2
-{
-  font-family: 'Quicksand', sans-serif;
-  <!-- font-size: 14px;--!>
-  color: black;
-}
-
-h3
-{
-  font-family: 'Quicksand', sans-serif;
-  <!-- font-size: 14px;--!>
-  color: black;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Serif:wght@100&family=Rubik:ital@1&display=swap');
 p
 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
-  color: black;
+  font-family: "Gopher";
+  font-size: 20px;
+  color: Black;
 }
-
-ol
+h1
 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
-  color: #719B7C;
+  font-family: "Gopher";
+    font-weight: 600;
+    font-size: 40px;
+      color: #FFAA05;
+    line-height: initial;
 }
-
-
-
+h3{
+  font-family: "Gopher";
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFAA05;
+    text-align: center;
+    line-height: initial;
+}
+body
+{
+  background-color: linen;
+  padding: 20px;
+}
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Quicksand';
-  color: #F5DA81 ;
+  font-family: "gopher";
+  color: black;
+  text-decoration:none;
 }
-
-.logo-and-name h1{
-  display:inline;
+.navbar-logo{
   padding: 30px;
+  display: inline;
 }
-
-.navbar-right a{
-  padding:30px;
-  justify-content: flex-end;
+.navbar-a a{
+  padding: 30px;
   text-decoration: none;
-  color: #E36834;
-  font-family: "Quicksand";
-  font-size: 20px;
+  color: #000000;
+}
+.navbar-b a{
+  padding: 30px;
+  text-decoration:none;
+  color: #000000;
+}
+.navbar-c a{
+  padding:30px;
+  text-decoration: none;
+  color: #000000;
+}
+.navbar-d a{
+  padding:30px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .images{
-  display: flex;
+  display:flex;
   justify-content: center;
-}
 
+}
 .images-1{
-  padding: 30px;
+padding:30px;
 }
-
 .images-2{
-  padding: 30px;
-}
-
-.images-3{
-  padding: 30px;
-}
-
-.images-4{
-  padding: 30px;
-}
-
-.images-5{
-  padding: 30px;
-}
-
-.images-6{
   padding:30px;
 }
 
-.images-7{
-  padding:30px;
-}
 
-.images-second-row{
-  display: flex;
-  justify-content: center;
-}
-
-.images-8{
-  padding:30px;
-}
-
-.images-9{
-  padding: 30px;
-}
-
-.images-10{
-  padding:30px;
-}
-
-.about-me{
-  padding:12px;
-  width: 450px;
-  color: #EF872C;
-}
-
-.portfolio-paragraph{
-  text-align: center;
-  font-family: "Quicksand";
-  color: #EF872C;
-}
-
-.contact-paragraph p{
-  text-align: center;
-  font-family: "Quicksand";
+  @media screen and (min-width:400px) and (max-width: 700px) {
+    .navbar {
+      padding: 5px;
+    }
+    body{
+      background-color: linen;
+    }
+  }
+    @media screen and (max-width:1900px) and (min-width:1100px){
+      .navbar{
+        padding: 30px;
+      }
+      body{
+        background-color: linen;
+      }
+    }
+  .aboutme{
+    display:flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    padding: 60px;
+  }
+  .aboutme-1{
+    padding:0;
+  }
+  .aboutme-2{
+  font-family: "Gopher";
+  font-weight: 600;
   font-size: 20px;
-  color: #EF872C;
+  color: #FFAA05;
+  padding: 30px;
+  flex-direction: column;
+}
+.container div {
+  font-family: "Gopher";
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  padding: 30px;
+}
+.contactme{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contactme-h1{
+  font-family: "Gopher";
+  font-weight: 600;
+  font-size: 20px;
+  color: Black;
+  padding: 0;
+}
+.contactme-h2{
+  font-family: "Gopher";
+  font-weight: 600;
+  font-size: 25px;
+  color: Black;
+  padding: 0;
+}
+.contactme-h3{
+  font-family: "Gopher";
+  font-weight: 300;
+  font-size: 15px;
+  color: Black;
+  padding: 0;
+}
+.contactme-h4{
+  border: Black;
+  margin: 6px;
 }
 
-.form{
-  margin:0 auto;
+form {
+  font-family:"Gopher";
+  color: black;
 }
-
-form label{
-  font-family:"Quicksand";
-  color: #EF872C;
-}
-
-input[type=text] {
+input[type=text]{
   text-align: center;
-  font-family: "Quicksand";
-  width: 100%;
-  padding: 12px 50px;
+  font-family: "gopher";
+  width: 30%;
+  padding:12px 50px;
   margin: 8px 0;
-  background-color: #FFF5BF;
-  border: 2px solid orange;
+  background-color: #FDD7B1;
+  border:2px solid black;
   border-radius: 4px;
-  color: #EF872C;
+  color: #000000;
 }
-
-.form-box{
+.portfolio{
   display: flex;
   justify-content: center;
 }
-
-.contact-info p{
-  display: flex;
-  text-decoration: none;
-  justify-content: center;
-  text-align: center;
-  font-size: 20px;
-  font-family:"gopher";
+.portfolio-1{
+  padding: 30px;
 }
-
-.contact-info a{
-  text-decoration: none;
-  color: #EF872C;
+.portfolio-2{
+  padding: 30px;
 }
-
-@media screen and (min-width: 400px) and (max-width: 700px){
-  .navbar {
-    padding: 5px;
-  }
-  body{
-    background-color: linen;
-  }
+.portfolio-3{
+  padding: 30px;
 }
-@media screen and (max-width: 1900px) and (min-width:1100px){
-  .navbar {
-    padding: 30px;
-  }
-  body{
-    background-color: linen;
-  }
