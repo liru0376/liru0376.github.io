@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Serif:wght@100&family=Rubik:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
 p
 {
-  font-family: "Gopher";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   color: Black;
 }
 h1
 {
-  font-family: "Gopher";
+  font-family: 'Bebas Neue';
     font-weight: 600;
     font-size: 40px;
       color: #FFAA05;
     line-height: initial;
 }
 h3{
-  font-family: "Gopher";
+  font-family: 'Bebas Neue';
     font-weight: 600;
     font-size: 40px;
     color: #FFAA05;
@@ -31,7 +31,7 @@ body
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "gopher";
+  font-family: 'Bebas Neue';
   color: black;
   text-decoration:none;
 }
@@ -99,7 +99,7 @@ padding:30px;
     padding:0;
   }
   .aboutme-2{
-  font-family: "Gopher";
+  font-family: 'Bebas Neue';
   font-weight: 600;
   font-size: 20px;
   color: #FFAA05;
@@ -107,7 +107,7 @@ padding:30px;
   flex-direction: column;
 }
 .container div {
-  font-family: "Gopher";
+  font-family: 'Bebas Neue';
   font-weight: 600;
   font-size: 20px;
   color: black;
@@ -119,21 +119,21 @@ padding:30px;
   flex-direction: column;
 }
 .contactme-h1{
-  font-family: "Gopher";
+  font-family: 'Bebas Neue';
   font-weight: 600;
   font-size: 20px;
   color: Black;
   padding: 0;
 }
 .contactme-h2{
-  font-family: "Gopher";
+  font-family: 'Bebas Neue';
   font-weight: 600;
   font-size: 25px;
   color: Black;
   padding: 0;
 }
 .contactme-h3{
-  font-family: "Gopher";
+  font-family: 'Bebas Neue';
   font-weight: 300;
   font-size: 15px;
   color: Black;
@@ -145,12 +145,12 @@ padding:30px;
 }
 
 form {
-  font-family:"Gopher";
+  font-family:'Bebas Neue';
   color: black;
 }
 input[type=text]{
   text-align: center;
-  font-family: "gopher";
+  font-family: 'Bebas Neue';
   width: 30%;
   padding:12px 50px;
   margin: 8px 0;
