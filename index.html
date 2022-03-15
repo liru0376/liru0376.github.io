@@ -1,71 +1,68 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
-    <title>Welcome to my page!!!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Welcome to my page!!!!</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://fonts.google.com">
+    
 
     <style>
-       h1{text-align: center;}
-       .cls-1 {
-         fill: #ffdec9;
-       }
 
-       .cls-2 {
-         fill: #ffaa05;
-       }
+      h1{text-align: center;}
+      .cls-1 {
+        fill: #ffdec9;
+      }
 
-       .cls-3 {
-         fill: rgba(255,207,159,0.74);
-       }
-       .textdecoration{
-         text-decoration: none;
-       }
+      .cls-2 {
+        fill: #ffaa05;
+      }
 
+      .cls-3 {
+        fill: rgba(255,207,159,0.74);
+      }
+      .textdecoration{
+        text-decoration: none;
+      }
 
-     body{font-family: "Quicksand"}
-     .textlocation{
-       text-align: center;
+      body{font-family:"Quicksand", sans-serif;
 
-
-
-
+      .center{
+        text-align: center;
+      }
+      .portrait{
+        width: 400px;
+        padding:20px;
+      }
+      .links a{
+        padding:30px;
+        color:black;
+        text-decoration:none;
+      }
+      @media only screen and (max-width:600px){
+        .links a{
+          padding:5px;
+        }
+        .portrait{
+          width:300px;
+        }
+      }
     </style>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://fonts.google.com/">
+    </head>
 
 
-
-
-
-
-      <div class="navbar-a">
-        <a href="index.html">Home</a>
+  <body>
+    <div class="center">
+      <h1>LILY RUDDER</h1>
+      <div class="links">
+        <a href="index.html">HOME</a>
+        <a href="aboutme.html">ABOUT ME</a>
+        <a href="portfoliocollages.html">PORTFOLIO</a>
+        <a href="contactinfo.html">CONTACT</a>
       </div>
-
-      <div class="navbar-b">
-        <a href="Aboutme.html">About</a>
-      </div>
-
-      <div class="navbar-c">
-          <a href="Portfolio.html">Portfolio</a>
-      </div>
-
-      <div class="navbar-d">
-        <a href="Contact.html">Contact</a>
-      </div>
-    </div>
-
-
-
-        <h1>LILY RUDDER</h1>
-        <div class="images">
-          <div class="images-1">
-              <img height="400" src="img/homepage.JPG" alt="LILY">
-          </div>
-          <div class="images-2">
-              <img height="700" src="img/homepage2.JPG " alt="LILY">
-          </div>
+      <img class="portrait" src="img/me.JPG" alt="">
     </div>
   </body>
 </html>
