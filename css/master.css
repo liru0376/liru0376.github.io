@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+
+
+h1
+{
+  font-size: 40px;
+  font-family: 'Bebas Neue';
+  color: white;
+}
+
+button {
+  transition: all 1000ms ease-in-out;
+  font-size: 40px;
+  font-family: 'Bebas Neue';
+  color: #F88E85;
+}
+
+.was-clicked {
+  color:pink;
+  padding: 20px;
+}
+
+body
+{
+  background-color: lightblue;
+  padding: 20px;
+}
