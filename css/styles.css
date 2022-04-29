@@ -37,10 +37,7 @@ body
   color: white;
   font-size: 35px;
   text-decoration:none;
-}
-.navbar-logo{
-  padding: 30px;
-  display: inline;
+
 }
 .navbar-a a{
   padding: 30px;
@@ -76,23 +73,6 @@ padding:30px;
 }
 
 
-  @media screen and (min-width:400px) and (max-width: 700px) {
-    .navbar {
-      padding: 5px;
-    }
-    body{
-      background-color: #C7EBFB;
-    }
-  }
-    @media screen and (max-width:1900px) and (min-width:1100px){
-      .navbar{
-        padding: 30px;
-      }
-      body{
-        background-color: #C7EBFB;
-      }
-    }
-
 
   .aboutme{
     display:flex;
@@ -102,6 +82,7 @@ padding:30px;
   }
   .aboutme-1{
     padding:0;
+    text-align: center;
   }
   .aboutme-2{
   font-family: 'Bebas Neue';
@@ -193,6 +174,10 @@ input[type=text]{
   padding: 30px;
 }
 
+.intro{
+  margin-top: 80px;
+}
+
 /*SLIDESHOW CODE STARTS HERE */
 
 * {box-sizing:border-box}
@@ -282,3 +267,35 @@ input[type=text]{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 5px;
+    flex-direction: column;
+  }
+  .aboutme {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .aboutme-2{
+  font-size: 36px;
+  padding: 10px;
+}
+.images{
+  flex-direction: column;
+}
+.navbar div a {
+  padding: 0;
+}
+  body{
+    background-color: #C7EBFB;
+  }
+}
+  @media screen and (max-width:1900px) and (min-width:1100px){
+    .navbar{
+      padding: 30px;
+    }
+    body{
+      background-color: #C7EBFB;
+    }
+  }
