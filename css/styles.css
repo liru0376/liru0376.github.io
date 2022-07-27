@@ -10,7 +10,7 @@ h1
   font-family: 'Bebas Neue';
     font-weight: 600;
     font-size: 60px;
-      color: #F88E85;
+      color: Black;
     line-height: initial;
 }
 h3{
@@ -23,7 +23,7 @@ h3{
 }
 body
 {
-  background-color: #E0F2F7;
+  background-color: #FBF2E7;
   padding: 20px;
 }
 
